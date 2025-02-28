@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -206,4 +206,4 @@
 <script src="home/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
 <script src="home/assets/libs/js/main-js.js"></script>
 </body>
-</html>
+</html> --}}

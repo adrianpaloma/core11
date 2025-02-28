@@ -57,9 +57,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('AddNewProducts')}}">Add New Product</a>
                                 </li>
-                                {{-- <li class="nav-item">
-                                    <a class="nav-link" href="{{route('CategoryManagement')}}">Category Management</a>
-                                </li> --}}
                             </ul>
                         </div>
                     </li>
@@ -75,9 +72,6 @@
                             <ul class="nav flex-column">
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('StocksControl')}}">Stock Control</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{route("ManageSuppliers")}}">Manage Suppliers</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{route('LowStockAlerts')}}">Low Stock Alerts</a>
@@ -123,6 +117,21 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="InventoryReports">Inventory Reports</a>
                                 </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- CRM Section -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                            data-target="#submenu-crm" aria-controls="submenu-crm">
+                            <i class="fa fa-users" style="color:white"></i>
+                            <p style="color:white;">CRM</p>
+                        </a>
+                        <div id="submenu-crm" class="collapse submenu">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('CustomerSupport')}}">Customer Support</a>
                             </ul>
                         </div>
                     </li>

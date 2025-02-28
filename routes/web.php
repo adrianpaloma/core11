@@ -75,6 +75,9 @@ Route::get("TransactionHistory", function () {
 Route::get("Refunds", function () {
     return view("PaymentProcessing.Refunds"); 
 })->name('Refunds');
+Route::get("CustomerSupport", function () {
+    return view("CRM.CustomerSupport"); 
+})->name('CustomerSupport');
 
 
 

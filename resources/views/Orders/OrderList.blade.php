@@ -67,11 +67,11 @@
 }
 
 /* Reject Button Styling */
-.btn-outline-danger {
+/* .btn-outline-danger {
     border-color: #dc3545;
     color: #dc3545;
     background-color: transparent;
-}
+} */
 
 .btn-outline-danger:hover {
     background-color: #dc3545;
@@ -139,7 +139,7 @@
                                                 <td>{{ $order->metadata->order_status }}</td>
                                                 <td>
                                                     <a href="#" class="btn btn-outline-success btn-sm">Approve</a>
-                                                    <a href="#" class="btn btn-outline-danger btn-sm">Reject</a>
+                                                    {{-- <a href="#" class="btn btn-outline-danger btn-sm">Reject</a> --}}
                                                     <a href="{{ route('OrderDetails', $order->id) }}" class="btn btn-outline-primary btn-sm">View</a>
                                                 </td>
                                             </tr>
